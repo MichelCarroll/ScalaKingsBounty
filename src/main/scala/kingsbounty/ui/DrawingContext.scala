@@ -1,8 +1,12 @@
-package kingsbounty
+package kingsbounty.ui
 
+import kingsbounty.character._
+import kingsbounty.common.{Coordinate, Gold, _}
+import kingsbounty.flow.{CastleRecruitmentAmountSelection, CastleRecruitmentSelection, ViewArmy, _}
+import kingsbounty.tile.{Forest, Mountain, Town, Wall, _}
+import kingsbounty.unit.{Knight, _}
 import org.scalajs.dom
-import org.scalajs.dom.raw.{Event, HTMLImageElement}
-
+import org.scalajs.dom.raw.HTMLImageElement
 
 class DrawingContext(canvasContext: dom.CanvasRenderingContext2D) {
 

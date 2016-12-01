@@ -1,10 +1,10 @@
-package kingsbounty
+package kingsbounty.ui
 
 import org.scalajs.dom
 import org.scalajs.dom.raw.{Event, HTMLImageElement}
 
-import scala.concurrent.{Future, Promise}
 import scala.concurrent.ExecutionContext.Implicits.global
+import scala.concurrent.{Future, Promise}
 
 class ImageRepository(canvasContext: dom.CanvasRenderingContext2D) {
 

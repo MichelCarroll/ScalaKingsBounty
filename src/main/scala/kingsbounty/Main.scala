@@ -1,11 +1,12 @@
 package kingsbounty
 
+import kingsbounty.flow.{Banner, CommandExecutor, Loading, UserInterface}
+import kingsbounty.ui.DrawingContext
 import org.scalajs.dom
 import org.scalajs.dom.html
 
 import scala.language.implicitConversions
 import scala.scalajs.js.annotation.JSExport
-
 import scala.concurrent.ExecutionContext.Implicits.global
 
 @JSExport
